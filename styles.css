@@ -1,0 +1,139 @@
+body{
+    background-color: #B068E9;
+    font-size: 11px; text-align: center;
+    color: hsl(228, 45%, 44%); 
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-div{
+    background-color: white;
+    position: relative;
+    border-radius: 23px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.main-icon{
+    position: absolute;
+    top:-110px;
+    left:60px;
+    z-index: 3;
+    transform: translate(-5%);
+}
+.shadow-icon{
+  margin-top: -80px;
+}
+.questen{
+    text-align: left;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.questens{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+hr{
+    width: 285px;
+}
+p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #4B4C5F;
+}
+h1{
+margin-top: 120px;
+color: #1E1F36;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+margin-bottom: 20px;
+}
+.fWeight{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #1E1F36;
+}
+.answer{
+    display: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.arrow{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.desktop-icon{
+    display: none;
+}
+@media screen and (min-width:1440px){
+   .body{
+    background-color: #B068E9;
+   }
+    .main-icon{
+       display: none;
+    }
+    .desktop-icon{
+        display: block;
+    }
+    
+    .mail-box{
+        position: absolute;
+        top: 210px;
+        left: -100px;
+    }
+    .main-div{
+        display: flex;
+        align-self: center;
+        background-image: url("images/illustration-woman-online-desktop.svg"), url("images/bg-pattern-desktop.svg");
+        background-repeat: no-repeat;
+        background-position-y: 70px, -300px;
+        background-position-x: -80px, -600px;
+    }
+    .questens{
+        align-items: flex-start;
+        margin-left: 500px;
+        margin-top: -50px;
+        text-align: left;
+    }
+    .questen{
+        margin-left: 0;
+    }
+    .answer{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .arrow{
+        margin-left: 100px;
+    }
+    p:hover{
+        color: #F47B56;
+    }
+    hr{
+        background-color:  #E8E8EA;
+        width: 370px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .answer{
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 15px;
+        width: 319px;
+        height: 36px;
+
+    }
+}
